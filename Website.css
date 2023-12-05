@@ -1,0 +1,1017 @@
+*	{
+	margin: 0;
+	padding: 0;
+	}
+
+
+/*--------------------------------------------NAVIGATION!!!!!!!----------------------------------------*/
+/*.custom-text {
+      font-family: 'Amanda', sans-serif;
+
+}
+
+body {
+  font-family: 'Amanda', sans-serif;
+}
+*/
+
+#navigation {
+	margin-top: 145px;
+}
+.nav {
+	list-style-type: none;
+	margin: 3px;
+	padding: 3px;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	}
+
+#nav{
+	float: right;
+	}
+
+#nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 25px;
+	text-decoration: none;
+	}
+
+#nav a.active {
+	background-color: #04AA6D;
+	color: white;
+	}
+
+#nav a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+	}
+
+/*---------------------------------------------BOOKMARK!!!!!!!!!!!*----------------------------------------/*/
+.Bookmark{
+  	list-style-type: none;
+	width: 200px;
+	height: 850px;
+	background-color: #f1f1f1;
+	text-align: center;
+
+	}
+
+#list2 a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+	}
+
+#list2 a.active {
+	background-color: #04AA6D;
+	color: white;
+	font-size: 15px;
+	}
+
+#list2 a:hover:not(.active) {
+	background-color: #555;
+	color: black;
+	}
+
+
+/*-----------------------------INDEXXXXXX HERE ------------------------------------------------------*/
+.Content {
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+	}
+
+#pictureme{
+	width: 100%;
+	margin-top: 10px;
+	}
+
+.text{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	margin-top: 100px;
+	}
+
+.GD{
+	font-size:50px;
+	margin-top: 0px;
+	text-align: left;
+	margin-left: 240px;
+	padding-top: 0px;
+
+	}
+
+.FE{
+	font-size:55px;
+	text-align: left;
+	margin-left: 190px;
+	
+	}
+
+
+/* -------------------------------------Container styling */
+.list-container5 {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.Cols1{
+	margin-top: 70px;
+	float: left;
+	position: fixed;
+	padding-top: ;
+	}
+
+.Bookmark4 {
+		margin-top: 50px;
+  		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 250px;
+		height: 1000px;
+		background-color: #f1f1f1;
+		text-align: center;
+}
+
+#list4 a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+#list4 a.active {
+	background-color: #04AA6D;
+	color: white;
+	font-size: 15px;
+}
+
+#list4 a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+
+.Cols2{
+	margin-left: 205px;
+	margin-top: 60px;
+	width: 85%;
+	float: left;
+	text-align: center;
+}
+
+.custom-list6 {
+	margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+/* ---------------------------Style list items */
+.custom-list6 li {
+    border-radius: 5px;
+}
+
+/* /-----------------------------Hover effect */
+.custom-list6 li:hover {
+    transform: scale(1.2);
+}
+
+/* ------------------------------------Container styling */
+.list-container6 {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/*---------------------------------------SECTION---------------------------------------------*/
+
+#programming {
+	max-width: 85%;
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 80px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#proSEC1 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#Agriculture {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 80px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 430px;
+    margin-top: 20px;
+     margin-left: 90px;
+}
+
+#MyBlender {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 350px;
+    margin-top: 20px;
+     margin-left: 90px;
+}
+
+#MyResearch {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 80px;
+    margin-top: 20px;
+     margin-left: 90px;
+}
+
+#MyPersonalThought {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 70px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+
+#MyPerception1 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 520px;
+    margin-top: 20px;
+     margin-left: 90px;
+}
+
+#perform1 {
+	height: 150px;
+
+}
+
+.legend1 {
+	height: 25px;
+}
+#MyPerception2 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 510px;
+    margin-top: 20px;
+     margin-left: 90px;
+}
+
+#MyPerception3 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 340px;
+    margin-top: 20px;
+     margin-left: 90px;
+}
+
+#MyPerception4 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 420px;
+    margin-top: 20px;
+     margin-left: 90px;
+}
+
+#MyPerception5 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 660px;
+    margin-top: 20px;
+     margin-left: 90px;
+}
+
+#MyPerception6 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 660px;
+    margin-top: 20px;
+     margin-left: 90px;
+}
+
+#MyPerception7 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 550px;
+    margin-top: 20px;
+     margin-left: 90px;
+}
+
+#MyPerception8 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#MyPerception9 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 530px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#MyPerception10 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 530px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#Introduction {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#teaching  {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 90px;
+
+}
+
+#adobebyme {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#lessonsplan {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#Cooking {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 380px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+#Pedic {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#Crafts {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 380px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#Takoyaki {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#Freelancer {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#resumeCOLS1 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+
+#testi1 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-left: 10px;
+
+}
+
+.testidiv {
+	margin-top: 60px;
+	width: 98%;
+	text-align: center;
+}
+/*-----------------PHOTO IN PROJECT -------------------*/
+#pythonpic {
+	width: 45%;
+	height: 50%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 15px;
+	padding-top: 55px;
+}
+
+#Agripic {
+	width: 25%;
+	height: 29%;
+	float: left;
+	border-radius: 10px;
+	border-color: darkgrey;
+	padding-left: 105px;
+	padding-top: 35px;
+}
+
+#blendpic {
+	width: 45%;
+	height: 50%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 15px;
+	padding-top: 55px;
+}
+
+/*/* --------------------------TEXT FOR PROJECT and My services------------------------------*/ 
+#protext1 {
+	text-align: center;
+	font-size: 22px;
+	font-family: Serif;
+	margin-top: 15px;
+}
+
+#protext2 {
+	font-family: Serif;
+	font-size: 15px;
+	text-align: justify;
+	margin-left:105px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+#protext3 {
+	font-family: Serif;
+	font-size: 18px;
+	text-align: justify;
+	margin-left: 15px;
+	padding-top: 10px;
+
+}
+
+#protext4 {
+	font-family: Serif;
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 15px;
+	font-style: italic;
+
+}
+
+#protext5 {
+	font-family: Serif;
+	font-size: 50px;
+	text-align: justify;
+	margin-left: 15px;
+	font-style: bold;
+	padding-top: 10px;
+
+}
+
+#protext6 {
+	font-family: Serif;
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 15px;
+	font-style: bold;
+	padding-top: 10px;
+
+
+}
+
+#protext7 {
+	font-family: Serif;
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 15px;
+	font-style: italic;
+	padding-top: 10px;
+
+
+}
+
+#protext8 {
+	font-family: Serif;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 15px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+#protext9 {
+	ont-family: Serif;
+	font-size: 15px;
+	text-align: justify;
+	margin-left: 15px;
+}
+
+#testitext9 {
+	text-align: center;
+	font-size: 28px;
+	font-family: Serif;
+	margin-top: 100px;
+}
+
+
+
+#projecttext {
+	padding-left: 450px;
+	padding-right: 15px;
+	padding-top: 20px;
+}
+
+#projecttext1 {
+	padding-left: 450px;
+	padding-right: 15px;
+	padding-top: 45px;
+}
+
+#resumetext {
+	padding-left: 580px;
+	padding-right: 15px;
+	padding-top: 45px;
+	margin-top: 38px;
+}
+
+
+#resumetext1 {
+	padding-left: 580px;
+	padding-right: 15px;
+	padding-top: 5px;
+}
+
+
+/*--------------------------TEXT FOR MY PERCEPTION------------*/
+#title01{
+	font-family: sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding-left: 15px;
+	padding-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#title02{
+	font-family: Serif;
+	font-size: 17px;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+} 
+
+#nameee{
+	text-align: right;
+}
+
+/*-------------------------PHOTO FOR MY SERVICES -----------------------------*/
+ 
+ #adobepic {
+ 	width: 20%;
+	height: 23%;
+	float: left;
+	border-radius: 10px;
+	border-color: darkgrey;
+	padding-left: 105px;
+	padding-top: 35px;
+ }
+
+#slidepic {
+	width: 45%;
+	height: 50%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 15px;
+	padding-top: 55px;
+
+}
+
+#cookpic {
+	width: 30%;
+	height: 30%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 85px;
+	padding-top: 20px;
+}
+
+#pedpic {
+	width: 20%;
+	height: 23%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 85px;
+	padding-top: 5px;
+	display: flex;
+}
+
+#pedpic1 {
+	width: 20%;
+	height: 20%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-top: 5px;
+	display: flex;
+}
+
+#maskpic {
+	width: 30%;
+	height: 30%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 120px;
+	padding-top: 20px;
+}
+
+#teachpic {
+	width: 22%;
+	height: 20%;
+	float: left;
+	border-radius: 10px;
+	border-color: darkgrey;
+	padding-left: 105px;
+	padding-top: 35px;
+}
+
+#takopic {
+	width: 25%;
+	height: 29%;
+	float: left;
+	border-radius: 10px;
+	border-color: darkgrey;
+	padding-left: 105px;
+	padding-top: 35px;
+}
+
+#freelanpic {
+	width: 25%;
+	height: 29%;
+	float: left;
+	border-radius: 10px;
+	border-color: darkgrey;
+	padding-left: 105px;
+	padding-top: 35px;
+}
+
+/*------------------------PHOTO FOR MY RESUME AND TESTIMONIALS? _________-----*/
+#Resumepic {
+	width: 30%;
+	height: 30%;
+	float: left;
+	border-radius: 10%;
+	border-color:salmon;
+	padding-left: 100px;
+	padding-top: 10px;
+}
+
+/*-------------------------------Button for my resume------------ */
+
+.btn {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+  font-kerning: unset;
+  padding-top: 10px;
+}
+
+#but {
+	padding-top: 10px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: lightgrey;
+}
+
+/*-------------------------------TESTIMONIALS----------------------*/
+
+#testipic1 {
+	width: 20%;
+	height: 20%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 75px;
+	padding-top: 5px;;
+}
+
+#testipic2 {
+	width: 20%;
+	height: 20%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 75px;
+	padding-top: 5px;;
+}
+
+#testipic3 {
+	width: 20%;
+	height: 20%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 75px;
+	padding-top: 5px;;
+}
+
+#testipic4 {
+	width: 20%;
+	height: 20%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 75px;
+	padding-top: 5px;;
+}
+#testipic5 {
+	width: 20%;
+	height: 20%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 75px;
+	padding-top: 5px;;
+}
+
+#testipic6 {
+	width: 20%;
+	height: 20%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 75px;
+	padding-top: 5px;;
+}
+#testipic7 {
+	width: 20%;
+	height: 20%;
+	float: left;
+	border-radius: 5px;
+	border-color: darkgrey;
+	padding-left: 75px;
+	padding-top: 5px;;
+}
+
+#Testitext {
+	padding-left: 450px;
+	padding-right: 15px;
+	padding-top: 45px;
+}
+
+#Testitext1 {
+	text-align:left;
+	font-size: 23px;
+	font-family: Serif;
+	margin-top: 10px;
+	float: left;
+	padding-top: 0px;
+}
+
+#Testitext2 {
+	text-align:right;
+	font-size: 17px;
+	font-family: Serif;
+	margin-top: 10px;
+	float: left;
+	text-align: justify;
+`	padding-left: 20px;
+}
+/*-------------------------SECTION OF TESTIMONIALS------------------*/
+
+#testi1 {
+	margin-right: 10px;
+	margin-top: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    background-color:  lightgrey;
+    border: lightpink;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+
+
